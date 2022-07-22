@@ -1,0 +1,34 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "mouvement caisse",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm start\" \"cd client && npm start\"",
+    "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnoirTaktak/GestionCaissePersonelPermaLine.git"
+  },
+  "author": "anoir taktak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnoirTaktak/GestionCaissePersonelPermaLine/issues"
+  },
+  "homepage": "https://github.com/AnoirTaktak/GestionCaissePersonelPermaLine#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.1.3",
+    "concurrently": "^7.2.2",
+    "config": "^3.3.7",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "mongoose": "^6.4.0",
+    "nodemon": "^2.0.16"
+  }
+}

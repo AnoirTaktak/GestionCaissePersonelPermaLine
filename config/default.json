@@ -1,0 +1,5 @@
+{
+    "db":"mongodb+srv://anoirtaktak:anoir123@cluster0.jehft.mongodb.net/PERMALINE?retryWrites=true&w=majority",
+    "secret":"our secret",
+    "PORT":"8000"   
+}
