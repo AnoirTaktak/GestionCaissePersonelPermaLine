@@ -2,7 +2,8 @@
   "name": "y",
   "version": "1.0.0",
   "description": "mouvement caisse",
-  "main": ".js",
+  "main": "server.js",
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "concurrently \"npm start\" \"cd client && npm start\"",
